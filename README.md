@@ -16,49 +16,60 @@
 
 填写目的地城市、出行日期、人数、旅行节奏、住宿偏好、预算，以及旅行偏好和饮食偏好标签，支持自由组合选择。
 
-![首页]
+[首页]
+<img width="2455" height="1355" alt="屏幕截图 2026-06-22 181000" src="https://github.com/user-attachments/assets/ab00313f-eb9a-4031-9dd2-6a4077cd8b58" />
 
 ### 规划中 — 多智能体协作进度
 
 点击"开始规划我的旅程"后，系统依次执行景点搜索、天气查询、酒店推荐、RAG 偏好检索、行程生成，进度条实时展示当前阶段。
 
-![规划进度]
+[规划进度]
+<img width="2408" height="1265" alt="屏幕截图 2026-06-22 181051" src="https://github.com/user-attachments/assets/0cba1735-9c7a-4084-a054-09dc9bdea1be" />
 
 ### 结果页 — 行程概览与预算
 
 行程生成后自动跳转结果页，顶部展示目的地城市、出行日期和总体建议，下方分项展示景点门票、酒店住宿、餐饮费用、交通费用及预估总费用。
 
-![行程概览]
+[行程概览]
+<img width="2281" height="1265" alt="屏幕截图 2026-06-22 185650" src="https://github.com/user-attachments/assets/3ca523c7-0fce-4ecb-bc42-977dedac71b0" />
 
 ### 结果页 — 景点地图
 
 集成高德地图 JS SDK，自动标注行程中所有景点位置并编号，点击可查看详情，地图自动缩放适配所有标记点。
 
-![景点地图]
+[景点地图]
+<img width="2188" height="1383" alt="屏幕截图 2026-06-22 190036" src="https://github.com/user-attachments/assets/f12aebea-eb49-4ba4-9b5f-67fb835a13a8" />
 
 ### 结果页 — 每日行程（Day 1）
 
 每天的行程以卡片形式展示，包含景点实拍图（高德 POI 图片）、地址、门票价格、游览时长、交通方式和餐饮安排。
 
-![每日行程]
+[每日行程]
+<img width="2235" height="1280" alt="屏幕截图 2026-06-22 185020" src="https://github.com/user-attachments/assets/af3a9c88-9345-41b2-8477-a2f33768326c" />
 
 ### 结果页 — 每日行程（Day 2）
 
 每日行程持续滚动展示，支持编辑模式下对景点进行上移、下移、删除操作，餐饮以彩色标签区分早中晚餐。
 
-![每日行程]
+[每日行程]
+<img width="2237" height="1373" alt="屏幕截图 2026-06-22 185033" src="https://github.com/user-attachments/assets/bc33c899-e85c-43a3-a19c-f81c0d9602f9" />
 
 ### 结果页 — 天气信息
 
 底部展示目的地未来几天的天气预报，包括白天/夜间天气、温度、风向风力，方便用户提前准备行装。
 
-![天气信息]
+[天气信息]
+<img width="2277" height="612" alt="屏幕截图 2026-06-22 185050" src="https://github.com/user-attachments/assets/4df0c648-d9bb-4758-a99f-32ced6984814" />
 
 ### 结果页 — 导出与编辑
 
 右下角固定操作栏提供"编辑行程"、"导出行程"（支持导出为图片和 PDF）、"返回首页"功能，随时可操作无需滚动到底部。
 
-![操作栏]
+[导出为图片]
+<img width="2023" height="1157" alt="屏幕截图 2026-06-22 185724" src="https://github.com/user-attachments/assets/d8f65054-17ed-423b-a3a8-edff38ba66b0" />
+
+[导出为pdf]
+<img width="2238" height="1044" alt="屏幕截图 2026-06-22 190110" src="https://github.com/user-attachments/assets/5b1077fe-438a-4658-b971-b96d29e13b90" />
 
 ## 技术栈
 
